@@ -1,5 +1,7 @@
 #Chart.HorizontalBar.js
 
+##This is a Fork from https://github.com/tomsouthall/Chart.HorizontalBar.js adding a package.json so we can use it from npm
+
 Horizontal Bar Chart plugin for Chart.js [chartjs.org](http://www.chartjs.org)
 
 ## Introduction
