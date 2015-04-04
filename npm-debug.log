@@ -6,19 +6,150 @@
 3 info using node@v0.10.26
 4 verbose node symlink C:\Program Files\nodejs\\node.exe
 5 verbose publish [ '.' ]
-6 error Failed to parse json
-6 error Unexpected token }
-7 error File: c:\Users\ezecafre89\Documents\Chart.HorizontalBar.js\package.json
-8 error Failed to parse package.json data.
-8 error package.json must be actual JSON, not just JavaScript.
-8 error
-8 error This is not a bug in npm.
-8 error Tell the package author to fix their package.json file. JSON.parse
-9 error System Windows_NT 6.2.9200
-10 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
-11 error cwd c:\Users\ezecafre89\Documents\Chart.HorizontalBar.js
-12 error node -v v0.10.26
-13 error npm -v 1.4.3
-14 error file c:\Users\ezecafre89\Documents\Chart.HorizontalBar.js\package.json
-15 error code EJSONPARSE
-16 verbose exit [ 1, true ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . C:\Users\ezecafre89\AppData\Roaming\npm-cache\3a52ce78-.lock
+11 verbose tar pack [ 'C:\\Users\\EZECAF~1\\AppData\\Local\\Temp\\npm-7856-WC6oA4oM\\1428187979421-0.984795237891376\\tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball C:\Users\EZECAF~1\AppData\Local\Temp\npm-7856-WC6oA4oM\1428187979421-0.984795237891376\tmp.tgz
+13 verbose folder .
+14 info prepublish Chart.HorizontalBar.js@1.0.2-b
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. C:\Users\ezecafre89\AppData\Roaming\npm-cache\1f1177db-tar.lock
+17 silly lockFile 22062750-979421-0-984795237891376-tmp-tgz tar://C:\Users\EZECAF~1\AppData\Local\Temp\npm-7856-WC6oA4oM\1428187979421-0.984795237891376\tmp.tgz
+18 verbose lock tar://C:\Users\EZECAF~1\AppData\Local\Temp\npm-7856-WC6oA4oM\1428187979421-0.984795237891376\tmp.tgz C:\Users\ezecafre89\AppData\Roaming\npm-cache\22062750-979421-0-984795237891376-tmp-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 22062750-979421-0-984795237891376-tmp-tgz tar://C:\Users\EZECAF~1\AppData\Local\Temp\npm-7856-WC6oA4oM\1428187979421-0.984795237891376\tmp.tgz
+22 silly lockFile 22062750-979421-0-984795237891376-tmp-tgz tar://C:\Users\EZECAF~1\AppData\Local\Temp\npm-7856-WC6oA4oM\1428187979421-0.984795237891376\tmp.tgz
+23 verbose tar unpack C:\Users\EZECAF~1\AppData\Local\Temp\npm-7856-WC6oA4oM\1428187979421-0.984795237891376\tmp.tgz
+24 silly lockFile af63fb9e-979421-0-984795237891376-package tar://C:\Users\EZECAF~1\AppData\Local\Temp\npm-7856-WC6oA4oM\1428187979421-0.984795237891376\package
+25 verbose lock tar://C:\Users\EZECAF~1\AppData\Local\Temp\npm-7856-WC6oA4oM\1428187979421-0.984795237891376\package C:\Users\ezecafre89\AppData\Roaming\npm-cache\af63fb9e-979421-0-984795237891376-package.lock
+26 silly lockFile 22062750-979421-0-984795237891376-tmp-tgz tar://C:\Users\EZECAF~1\AppData\Local\Temp\npm-7856-WC6oA4oM\1428187979421-0.984795237891376\tmp.tgz
+27 verbose lock tar://C:\Users\EZECAF~1\AppData\Local\Temp\npm-7856-WC6oA4oM\1428187979421-0.984795237891376\tmp.tgz C:\Users\ezecafre89\AppData\Roaming\npm-cache\22062750-979421-0-984795237891376-tmp-tgz.lock
+28 silly gunzTarPerm modes [ '755', '644' ]
+29 silly gunzTarPerm extractEntry package.json
+30 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+31 silly gunzTarPerm extractEntry .npmignore
+32 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+33 silly gunzTarPerm extractEntry README.md
+34 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+35 silly gunzTarPerm extractEntry LICENSE
+36 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+37 silly gunzTarPerm extractEntry Chart.HorizontalBar.js
+38 silly gunzTarPerm modified mode [ 'Chart.HorizontalBar.js', 438, 420 ]
+39 silly gunzTarPerm extractEntry bower.json
+40 silly gunzTarPerm modified mode [ 'bower.json', 438, 420 ]
+41 silly gunzTarPerm extractEntry samples/horizontal-bar.html
+42 silly gunzTarPerm modified mode [ 'samples/horizontal-bar.html', 438, 420 ]
+43 silly lockFile af63fb9e-979421-0-984795237891376-package tar://C:\Users\EZECAF~1\AppData\Local\Temp\npm-7856-WC6oA4oM\1428187979421-0.984795237891376\package
+44 silly lockFile af63fb9e-979421-0-984795237891376-package tar://C:\Users\EZECAF~1\AppData\Local\Temp\npm-7856-WC6oA4oM\1428187979421-0.984795237891376\package
+45 silly lockFile 22062750-979421-0-984795237891376-tmp-tgz tar://C:\Users\EZECAF~1\AppData\Local\Temp\npm-7856-WC6oA4oM\1428187979421-0.984795237891376\tmp.tgz
+46 silly lockFile 22062750-979421-0-984795237891376-tmp-tgz tar://C:\Users\EZECAF~1\AppData\Local\Temp\npm-7856-WC6oA4oM\1428187979421-0.984795237891376\tmp.tgz
+47 verbose tar pack [ 'C:\\Users\\ezecafre89\\AppData\\Roaming\\npm-cache\\Chart.HorizontalBar.js\\1.0.2-b\\package.tgz',
+47 verbose tar pack   'C:\\Users\\EZECAF~1\\AppData\\Local\\Temp\\npm-7856-WC6oA4oM\\1428187979421-0.984795237891376\\package' ]
+48 verbose tarball C:\Users\ezecafre89\AppData\Roaming\npm-cache\Chart.HorizontalBar.js\1.0.2-b\package.tgz
+49 verbose folder C:\Users\EZECAF~1\AppData\Local\Temp\npm-7856-WC6oA4oM\1428187979421-0.984795237891376\package
+50 silly lockFile af63fb9e-979421-0-984795237891376-package tar://C:\Users\EZECAF~1\AppData\Local\Temp\npm-7856-WC6oA4oM\1428187979421-0.984795237891376\package
+51 verbose lock tar://C:\Users\EZECAF~1\AppData\Local\Temp\npm-7856-WC6oA4oM\1428187979421-0.984795237891376\package C:\Users\ezecafre89\AppData\Roaming\npm-cache\af63fb9e-979421-0-984795237891376-package.lock
+52 silly lockFile b155dcd6-zontalBar-js-1-0-2-b-package-tgz tar://C:\Users\ezecafre89\AppData\Roaming\npm-cache\Chart.HorizontalBar.js\1.0.2-b\package.tgz
+53 verbose lock tar://C:\Users\ezecafre89\AppData\Roaming\npm-cache\Chart.HorizontalBar.js\1.0.2-b\package.tgz C:\Users\ezecafre89\AppData\Roaming\npm-cache\b155dcd6-zontalBar-js-1-0-2-b-package-tgz.lock
+54 silly lockFile af63fb9e-979421-0-984795237891376-package tar://C:\Users\EZECAF~1\AppData\Local\Temp\npm-7856-WC6oA4oM\1428187979421-0.984795237891376\package
+55 silly lockFile af63fb9e-979421-0-984795237891376-package tar://C:\Users\EZECAF~1\AppData\Local\Temp\npm-7856-WC6oA4oM\1428187979421-0.984795237891376\package
+56 silly lockFile b155dcd6-zontalBar-js-1-0-2-b-package-tgz tar://C:\Users\ezecafre89\AppData\Roaming\npm-cache\Chart.HorizontalBar.js\1.0.2-b\package.tgz
+57 silly lockFile b155dcd6-zontalBar-js-1-0-2-b-package-tgz tar://C:\Users\ezecafre89\AppData\Roaming\npm-cache\Chart.HorizontalBar.js\1.0.2-b\package.tgz
+58 silly lockFile 7c7b7a32-HorizontalBar-js-1-0-2-b-package C:\Users\ezecafre89\AppData\Roaming\npm-cache\Chart.HorizontalBar.js\1.0.2-b\package
+59 verbose lock C:\Users\ezecafre89\AppData\Roaming\npm-cache\Chart.HorizontalBar.js\1.0.2-b\package C:\Users\ezecafre89\AppData\Roaming\npm-cache\7c7b7a32-HorizontalBar-js-1-0-2-b-package.lock
+60 silly lockFile 7c7b7a32-HorizontalBar-js-1-0-2-b-package C:\Users\ezecafre89\AppData\Roaming\npm-cache\Chart.HorizontalBar.js\1.0.2-b\package
+61 silly lockFile 7c7b7a32-HorizontalBar-js-1-0-2-b-package C:\Users\ezecafre89\AppData\Roaming\npm-cache\Chart.HorizontalBar.js\1.0.2-b\package
+62 verbose tar unpack C:\Users\ezecafre89\AppData\Roaming\npm-cache\Chart.HorizontalBar.js\1.0.2-b\package.tgz
+63 silly lockFile c92ff3c8-HorizontalBar-js-1-0-2-b-package tar://C:\Users\ezecafre89\AppData\Roaming\npm-cache\Chart.HorizontalBar.js\1.0.2-b\package
+64 verbose lock tar://C:\Users\ezecafre89\AppData\Roaming\npm-cache\Chart.HorizontalBar.js\1.0.2-b\package C:\Users\ezecafre89\AppData\Roaming\npm-cache\c92ff3c8-HorizontalBar-js-1-0-2-b-package.lock
+65 silly lockFile b155dcd6-zontalBar-js-1-0-2-b-package-tgz tar://C:\Users\ezecafre89\AppData\Roaming\npm-cache\Chart.HorizontalBar.js\1.0.2-b\package.tgz
+66 verbose lock tar://C:\Users\ezecafre89\AppData\Roaming\npm-cache\Chart.HorizontalBar.js\1.0.2-b\package.tgz C:\Users\ezecafre89\AppData\Roaming\npm-cache\b155dcd6-zontalBar-js-1-0-2-b-package-tgz.lock
+67 silly gunzTarPerm modes [ '755', '644' ]
+68 silly gunzTarPerm extractEntry package.json
+69 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+70 silly gunzTarPerm extractEntry .npmignore
+71 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+72 silly gunzTarPerm extractEntry README.md
+73 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+74 silly gunzTarPerm extractEntry LICENSE
+75 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+76 silly gunzTarPerm extractEntry Chart.HorizontalBar.js
+77 silly gunzTarPerm modified mode [ 'Chart.HorizontalBar.js', 438, 420 ]
+78 silly gunzTarPerm extractEntry bower.json
+79 silly gunzTarPerm modified mode [ 'bower.json', 438, 420 ]
+80 silly gunzTarPerm extractEntry samples/horizontal-bar.html
+81 silly gunzTarPerm modified mode [ 'samples/horizontal-bar.html', 438, 420 ]
+82 silly lockFile c92ff3c8-HorizontalBar-js-1-0-2-b-package tar://C:\Users\ezecafre89\AppData\Roaming\npm-cache\Chart.HorizontalBar.js\1.0.2-b\package
+83 silly lockFile c92ff3c8-HorizontalBar-js-1-0-2-b-package tar://C:\Users\ezecafre89\AppData\Roaming\npm-cache\Chart.HorizontalBar.js\1.0.2-b\package
+84 silly lockFile b155dcd6-zontalBar-js-1-0-2-b-package-tgz tar://C:\Users\ezecafre89\AppData\Roaming\npm-cache\Chart.HorizontalBar.js\1.0.2-b\package.tgz
+85 silly lockFile b155dcd6-zontalBar-js-1-0-2-b-package-tgz tar://C:\Users\ezecafre89\AppData\Roaming\npm-cache\Chart.HorizontalBar.js\1.0.2-b\package.tgz
+86 verbose chmod C:\Users\ezecafre89\AppData\Roaming\npm-cache\Chart.HorizontalBar.js\1.0.2-b\package.tgz 644
+87 silly chown skipping for windows C:\Users\ezecafre89\AppData\Roaming\npm-cache\Chart.HorizontalBar.js\1.0.2-b\package.tgz
+88 silly lockFile 3a52ce78- .
+89 silly lockFile 3a52ce78- .
+90 silly publish { name: 'Chart.HorizontalBar.js',
+90 silly publish   main: 'Chart.HorizontalBar.js',
+90 silly publish   version: '1.0.2-b',
+90 silly publish   repository:
+90 silly publish    { type: 'git',
+90 silly publish      url: 'https://github.com/tomsouthall/Chart.HorizontalBar.js' },
+90 silly publish   keywords:
+90 silly publish    [ 'Chart.js',
+90 silly publish      'chartjs',
+90 silly publish      'bar chart',
+90 silly publish      'horizontal bar chart',
+90 silly publish      'bar charts',
+90 silly publish      'horizontal bar charts' ],
+90 silly publish   dependencies: { 'chart.js': '^1.0.2' },
+90 silly publish   readme: '#Chart.HorizontalBar.js\n\n##This is a Fork from https://github.com/tomsouthall/Chart.HorizontalBar.js adding a package.json so we can use it from npm\n\nHorizontal Bar Chart plugin for Chart.js [chartjs.org](http://www.chartjs.org)\n\n## Introduction\nHorizontal bar charts are a much-requested missing chart option from Chart.js, which is otherwise a fantastic library.\n\nThis plugin aims to fill that gap and is based on work by @erikdattilo\nwhich you can find here https://github.com/erikdattilo/Chart.js/tree/issue/073-horizontal-bar-chart\n\nThe difference with this plugin is that it does not require any changes\nto Chart.js itself.\n\nIt\'s hacky, kinda brittle, and repeats a bunch of code already in Chart.js, but until horizontal bar charts are supported natively, this should do okay.\n\nIf you want to fork this and clean it up, feel free. I\'m sure there\'s plenty of room for improvement and I\'m probably not going to be messing with it too much.\n\n## Usage\n\nInstall via bower.\n\n```bash\n$ bower install chart.horizontalbar\n```\n\nThis plugin can be used in exactly the same way as the standard (vertical) Bar charts in Chart.js.\n\nAll the same options apply. Tooltips are not working, but it wouldn\'t take much work to add them in if someone wants to take a crack at it.\n\n### Example usage\n\n```javascript\nvar horizontalBarChart = new Chart(ctx).HorizontalBar(data, options);\n```\n\nSee the example in /samples/horizontal-bar.html for more information,\nor simply refer to the\n[Chart.js Bar Chart docs](http://www.chartjs.org/docs/#bar-chart).\n\n## License\n\nChart.HorizontalBar.js is available under the [MIT license](http://opensource.org/licenses/MIT). Take it, break it, re-make it. Whatever.\n',
+90 silly publish   readmeFilename: 'README.md',
+90 silly publish   description: '##This is a Fork from https://github.com/tomsouthall/Chart.HorizontalBar.js adding a package.json so we can use it from npm',
+90 silly publish   bugs: { url: 'https://github.com/tomsouthall/Chart.HorizontalBar.js/issues' },
+90 silly publish   homepage: 'https://github.com/tomsouthall/Chart.HorizontalBar.js',
+90 silly publish   _id: 'Chart.HorizontalBar.js@1.0.2-b',
+90 silly publish   dist: { shasum: 'b39c5a54e7e92ed20dc2e21f17e56862599d2949' },
+90 silly publish   _from: '.' }
+91 verbose url raw Chart.HorizontalBar.js
+92 verbose url resolving [ 'https://registry.npmjs.org/', './Chart.HorizontalBar.js' ]
+93 verbose url resolved https://registry.npmjs.org/Chart.HorizontalBar.js
+94 info trying registry request attempt 1 at 19:52:59
+95 http PUT https://registry.npmjs.org/Chart.HorizontalBar.js
+96 http 409 https://registry.npmjs.org/Chart.HorizontalBar.js
+97 verbose url raw Chart.HorizontalBar.js?write=true
+98 verbose url resolving [ 'https://registry.npmjs.org/',
+98 verbose url resolving   './Chart.HorizontalBar.js?write=true' ]
+99 verbose url resolved https://registry.npmjs.org/Chart.HorizontalBar.js?write=true
+100 info trying registry request attempt 1 at 19:53:01
+101 http GET https://registry.npmjs.org/Chart.HorizontalBar.js?write=true
+102 http 200 https://registry.npmjs.org/Chart.HorizontalBar.js?write=true
+103 error publish fail Cannot publish over existing version.
+103 error publish fail Update the 'version' field in package.json and try again.
+103 error publish fail
+103 error publish fail If the previous version was published in error, see:
+103 error publish fail     npm help unpublish
+103 error publish fail
+103 error publish fail To automatically increment version numbers, see:
+103 error publish fail     npm help version
+104 error System Windows_NT 6.2.9200
+105 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+106 error cwd c:\Users\ezecafre89\Documents\Chart.HorizontalBar.js
+107 error node -v v0.10.26
+108 error npm -v 1.4.3
+109 error code EPUBLISHCONFLICT
+110 verbose exit [ 1, true ]
