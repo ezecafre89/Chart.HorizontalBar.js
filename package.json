@@ -15,6 +15,6 @@
     "horizontal bar charts"
   ],
   "dependencies": {
-    "chartjs": "^1.0.2"
+    "chart.js": "^1.0.2"
   }
 }
