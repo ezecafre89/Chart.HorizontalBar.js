@@ -2,7 +2,7 @@
 	"use strict";
 
 	var root = this,
-		Chart = root.Chart,
+		Chart = root.Chart || require('chart.js'),
 		helpers = Chart.helpers;
 
 

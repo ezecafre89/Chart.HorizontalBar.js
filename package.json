@@ -1,7 +1,7 @@
 {
   "name": "Chart.HorizontalBar.js",
   "main": "Chart.HorizontalBar.js",
-  "version": "1.0.2c",
+  "version": "1.0.2d",
   "repository": {
     "type": "git",
     "url": "https://github.com/tomsouthall/Chart.HorizontalBar.js"
